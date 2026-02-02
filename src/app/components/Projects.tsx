@@ -1,3 +1,4 @@
+import phb from "./../../../public/phb.png";
 export function Projects() {
   const projects = [
     {
@@ -18,7 +19,7 @@ export function Projects() {
       id: 3,
       title: 'PHB Online Website',
       description: 'A web platform for Online Banking services',
-      image: '/public/phb.png',
+      image: phb,
       gradient: 'from-purple-500/20 to-pink-500/20'
     }
   ];
