@@ -1,18 +1,20 @@
 import phb from "./../../../public/phb.png";
+import med from "./../../../public/med.png";
+import labamoto from "./../../../public/labamoto.png";
 export function Projects() {
   const projects = [
     {
       id: 1,
       title: 'Laundry Website',
       description: 'Modern laundry service website with online booking',
-      image: '/public/labamoto.png',
+      image: labamoto,
       gradient: 'from-cyan-500/20 to-blue-500/20'
     },
     {
       id: 2,
       title: 'Medisense Website',
       description: 'Healthcare platform for medicine services',
-      image: '/public/med.png',
+      image: med,
       gradient: 'from-gray-500/20 to-black/20'
     },
     {
